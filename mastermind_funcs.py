@@ -2,29 +2,17 @@
 # Skriven av Farhad Asadi, 29 september 2021
 
 
-# Uppgift - Master Mind
+# Mastermind
 
-# Krav på ett godkänd spel
-# Du ska bryta ned din kod i flera funktioner. Det ska särskilt finnas!
-# 1. en funktion, generate_code(), som genererar en slumpmässig fyrsiffrig 
+# Krav
+# 1. En funktion, generate_code(), som genererar en slumpmässig fyrsiffrig 
 #    kod med siffror 0-5, och returnerar koden i form av en lista med de fyra slumpade siffrorna
-# 2. en funktion, right_position(guess, code), som tar in den gissade sifferkombinationen i form
+# 2. En funktion, right_position(guess, code), som tar in den gissade sifferkombinationen i form
 #    av en lista, guess, och den riktiga kombinationen i en annan lista, code, och returnerar 
 #    hur många siffror som är rätt på och på rätt plats .
-# 3. en funktion, wrong_position(guess, code), som tar in den gissade sifferkombinationen i form 
+# 3. En funktion, wrong_position(guess, code), som tar in den gissade sifferkombinationen i form 
 #    av en lista, guess, och den riktiga kombinationen i en annan lista, code, och returnerar hur 
 #    många siffror som är rätt men på fel plats.
- 
-# Dessa funktioner ska anropas i ditt program. Funktionerna ska läggas i en egen fil, som  som 
-# döps till mastermind_funcs.py och som är fristående från huvudprogrammet med spelet. Allt innehåll
-# i filen mastermind_funcs.py ska vara helt oberoende av användargränssnittet.
-
-# Fråger!
-# 1. Hur mycket tid trodde du att det skulle ta att lösa den här uppgiften?
-# svar: Jag trodde att det skulle ta ungefär 3 timmar!
-# 2. Hur mycket tid har du lagt ned på att lösa uppgiften?
-# svar: Jag har lagt ned ungefär 7 timmar på att lösa uppgiften.
-
 
 import random
 
